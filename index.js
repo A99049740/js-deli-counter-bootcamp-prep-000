@@ -4,4 +4,4 @@ function takeANumber(line,customer){
 }
 
 var line = ['grace','tom']
-takeAnumber(line,'grace')
+takeANumber(line,'grace')
