@@ -15,14 +15,14 @@ function currentLine(line){
     return "The line is currently empty"
   }
   else{
-    return `The line is currently: ${emunator(line)}`
+    return `The line is currently:${emunator(line)}`
   }
 }
 function emunator(line){
   var toreturn = ""
   for (var customer of line){
     toreturn = toreturn+" "+(line.indexOf(customer)+1)+". "+customer
-    if (line.indexOf(customer)==line.length-1){
+    if (line.indexOf(customer)!=line.length-1){
       toreturn = toreturn+","
     }
   }
