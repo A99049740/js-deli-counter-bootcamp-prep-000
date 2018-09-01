@@ -21,7 +21,7 @@ function currentLine(line){
 function emunator(line){
   var toreturn = ""
   for (var customer of line){
-    toreturn = toreturn+", "+line.indexOf(customer)+". "+customer
+    toreturn = toreturn+", "+(line.indexOf(customer)+1)+". "+customer
   }
   return toreturn
 }
