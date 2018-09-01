@@ -4,4 +4,5 @@ function takeANumber(line,customer){
 }
 
 var line = ['grace','tom']
+console.log(line.findIndex('tom'))
 takeANumber(line,'grace')
